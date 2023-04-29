@@ -1,0 +1,93 @@
+body {
+    background-color: #dbe8ff;
+}
+
+.container-fluid {
+    background-color: #dbe8ff;
+    height: 80px;
+    position: fixed;
+    top: 0;
+}
+
+.navbar {
+    padding: 0px;
+    height: 63px;
+}
+
+.nav-link {
+    color: black;
+    margin: 8px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.dropdown-item {
+    margin: 7px;
+    height: 27px;
+    width: 81px;
+}
+
+/* .btn1:hover {
+    background-color: #007bff;
+    color: white;
+} */
+.btn {
+    background-color: #007bff;
+    color: white;
+    width: 95px;
+    height: 37px;
+    margin: 8px;
+
+}
+.btn1 a {
+    color: white;
+    text-decoration: none;
+}
+.div1{
+    position: absolute;
+    top:10vh;
+    margin-top: 1300px;
+}
+.main2 {
+    float: right;
+    margin-top: 20vh;
+    margin-right: 7vw;
+}
+.paragraph1{
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+.paragraph2{
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    width: 625px;
+    font-size: 1.5rem;
+}
+.about_png{
+    width: 95%;
+}
+
+.main3 {
+    width: 100vw;
+}
+
+.url p {
+    margin-top: 354px;
+    font-size: 34px;
+    margin-left: 209px;
+}
+
+.boxfor {
+    width: 587px;
+    margin-left: 209px;
+    margin-bottom: 123px;
+    padding-top: 0px;
+}
+
+.form-control {
+    padding: 9px;
+}
