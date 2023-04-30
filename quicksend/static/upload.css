@@ -8,18 +8,58 @@ body {
 }
 
 .form-container {
-    margin-top: 100px;
+    margin-top: 0px;
     width: 100vw;
-    height: 100vh;
+    height: 91vh;
     background-color: #dbe8ff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.container-fluid {
+    background-color: #dbe8ff;
+    height: 80px;
+    position: fixed;
+    top: 0;
+}
+.navbar {
+    padding: 0px;
+    height: 63px;
+}
+
+.nav-link {
+    color: black;
+    margin: 8px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.dropdown-item {
+    margin: 7px;
+    height: 27px;
+    width: 81px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    width: 95px;
+    height: 37px;
+    margin: 8px;
+
+}
+
+.btn1 a {
+    color: white;
+    text-decoration: none;
+}
 
 .upload-files-container {
     background-color: #f7fff7;
     width: 420px;
+    margin-top:-56px;
     padding: 30px 60px;
     border-radius: 40px;
     display: flex;
