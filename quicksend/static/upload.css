@@ -59,7 +59,7 @@ body {
 .upload-files-container {
     background-color: #f7fff7;
     width: 420px;
-    margin-top:-56px;
+    margin-top: 30px;
     padding: 30px 60px;
     border-radius: 40px;
     display: flex;
@@ -68,7 +68,9 @@ body {
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 20px, rgba(0, 0, 0, 0.28) 0px 6px 6px;
 }
-
+.form_align{
+    margin-top: 45px;
+}
 .drag-file-area {
     border: 2px dashed #1183ca;
     border-radius: 40px;
