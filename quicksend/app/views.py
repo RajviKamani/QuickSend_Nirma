@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.shortcuts import render,redirect
 from app.models import Email
 from django.contrib.auth.models import User
@@ -7,6 +8,16 @@ from django.contrib.auth import authenticate
 def home(request):
    return render(request,'home.html')
 
+=======
+from django.shortcuts import render,HttpResponse,redirect
+from django.contrib.auth.models import User
+from django.contrib import messages
+from django.contrib.auth import authenticate
+
+# Create your views here.
+def home(request):
+    return render(request, 'home.html')
+>>>>>>> 092402b3205aaa1f67017f762fd1771a6afea8e6
 
 def about(request):
     return render(request, 'about.html')
@@ -46,3 +57,9 @@ def signup(request):
 
 def upload(request):
     return render(request, 'upload.html')
+<<<<<<< HEAD
+=======
+
+def about(request):
+    return render(request, 'about.html')
+>>>>>>> 092402b3205aaa1f67017f762fd1771a6afea8e6

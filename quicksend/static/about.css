@@ -45,11 +45,11 @@ body {
     color: white;
     text-decoration: none;
 }
-.div1{
+.div1 {
     position: absolute;
-    top:10vh;
-    margin-top: 1300px;
-}
+    /* top: 10vh; */
+    margin-top: 70px;
+  }
 .main2 {
     float: right;
     margin-top: 20vh;
