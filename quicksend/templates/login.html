@@ -12,10 +12,10 @@
 <body>
   <div class="main">
     <p class="sign" align="center">Log in</p>
-    <form action='/login' class="form1" method="post">
+    <form action='login' class="form1" method="post">
       {% csrf_token %}
-      <input class="un " name='name' type="text" align="center" placeholder="Username">
-      <input class="pass" name='password' type="password" align="center" placeholder="Password">
+      <input class="un " name="email" type="text" align="center" placeholder="Username">
+      <input class="pass" name="password" type="password" align="center" placeholder="Password">
       <a class="submit" align="center">
         <button type='submit'>Log in</button>
       </a>
