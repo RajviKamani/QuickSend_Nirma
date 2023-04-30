@@ -12,12 +12,25 @@
 <body>
   <div class="main">
     <p class="sign" align="center">Log in</p>
+<<<<<<< HEAD
     <form action='/login/' class="form1" method="post">
       {% csrf_token %}
       <input class="un " name='username' type="text" align="center" placeholder="Username">
       <input class="pass" name='password' type="password" align="center" placeholder="Password">
         <button type = "submit" class="submit" align="center">Log In</button>
       <p class="forgot" align="center">Don't have an account? <a href="/signup">create one</a></p>
+=======
+    <form action='login' class="form1" method="post">
+      {% csrf_token %}
+      <input class="un " name="email" type="text" align="center" placeholder="Username">
+      <input class="pass" name="password" type="password" align="center" placeholder="Password">
+      <a class="submit" align="center">
+        <button type='submit'>Log in</button>
+      </a>
+      <p class="forgot" align="center">Don't have an account? <a href="">create one</a></p>
+      
+                
+>>>>>>> 8f085d4e74ea3952e53928203581291de5e9c25c
     </div>
 </body>
 </html>
